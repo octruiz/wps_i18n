@@ -26,12 +26,14 @@
     <message>
         <source>The document will be saved as &quot;%s&quot; format, do you want to continue?
 (%s)</source>
-        <translation>El documento se guardará en formato &quot;%s&quot;. ¿Desea continuar?</translation>
+        <translation>El documento se guardará en formato &quot;%s&quot;. ¿Desea continuar?
+        (%s)</translation>
     </message>
     <message>
         <source>Document has been locked by another application. Do you want to open it as read-only?
 (%s)</source>
-        <translation>El documento ha sido bloqueado por otra aplicación. ¿Desea abrirlo como documento de solo lectura?</translation>
+        <translation>El documento ha sido bloqueado por otra aplicación. ¿Desea abrirlo como documento de solo lectura?
+        (%s)</translation>
     </message>
     <message utf8="true">
         <source>Errors occur when Kingsoft Spreadsheets opening this file.
@@ -45,7 +47,7 @@ Por favor, intente alguna de las siguientes opciones:
 •Asegúrese de que se permite el acceso al archivo o al dispositivo en el que se encuentra.
 •Asegúrese de que hay suficiente memoria y espacio en el disco.	
 •Asegúrese de que el archivo tiene un formato reconocible.
-</translation>
+(%s)</translation>
     </message>
     <message utf8="true">
         <source>Kingsoft Spreadsheets cannot open this file, because the current user doesn&apos;t have enough permission to access.
@@ -53,7 +55,12 @@ Please try one of the following.
 •Switch to another user account.
 •Ask its creator to change the permissions control level of this file.
 (%s)</source>
-        <translation type="unfinished"></translation>
+        <translation>
+        Kingsoft Spreadsheets no puede abrir este archivo debido a que el usuario actual no tiene permisos para ello.
+Por favor, intente alguna de las siguientes opciones:
+•Utilice otra cuenta de usuario.
+•Solicite al creador del archivo que modifique los permisos para su acceso.
+(%s)</translation>
     </message>
     <message utf8="true">
         <source>Errors occur when Kingsoft Spreadsheets opening this file.
@@ -61,27 +68,37 @@ Please try one of the following.
 •The current version of Kingsoft Spreadsheets does not support this file&apos;s permission contorl level, please update to the latest version.
 •Ask its creator to change the permission control level as full control level.
 (%s)</source>
-        <translation type="unfinished"></translation>
+        <translation>
+        Se han encontrado erroes al abrir este archivo.
+Por favor, intente alguna de las siguientes opciones:
+•La versión actual de Kingsoft Spreadsheets no soporta este archivo, por lo que se le recomienda que actualice a la última versión.
+•Solicite al creador del archivo que permita acceso al mismo a todos los niveles.
+(%s)</translation>
     </message>
     <message>
         <source>Kingsoft Spreadsheets cannot open this file, because the password is not correct.
 (%s)</source>
-        <translation type="unfinished"></translation>
+        <translation>Kingsoft Spreadsheets no puede abrir este archivo. Contraseña incorrecta.(%s)
+        </translation>
     </message>
     <message>
         <source>Unsupported encrypted file format. Please contact with the creator.
 (%s)</source>
-        <translation type="unfinished"></translation>
+        <translation>
+        Formato de archivo encriptado no soportado. Por favor, contacte con el creador del mismo.
+        (%s)</translation>
     </message>
     <message>
         <source>Kingsoft Spreadsheets cannot save or create this file. Please make sure the target disk is not full or undamaged.
 (%s)</source>
-        <translation type="unfinished"></translation>
+        <translation>Kingsoft Spreadsheetes no puede guardar ni crear este archivo. Por favor asegúrese de que el disco no se encuentra lleno ni dañado.
+(%s)</translation>
     </message>
     <message>
         <source>Kingsoft Spreadsheets cannot save this file due to a file permission error.
 (%s)</source>
-        <translation type="unfinished"></translation>
+        <translation>Kingsoft Spreadsheets no puede guardar este archivo debido a un error en los permisos del mismo.
+(%s)</translation>
     </message>
     <message>
         <source>Try to save again?
